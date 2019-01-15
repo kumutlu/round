@@ -34,7 +34,3 @@ print (rotate(("zw pfli tfuv nfibj tfiivtkcp pfl jyflcu "
                 "sv rscv kf ivru kyzj"),-17))
 #>>> ???
 
-print (ord('A'))
-print (ord(' '))
-print (ord(')'))
-print (chr(32))
