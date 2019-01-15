@@ -5,16 +5,7 @@
 # choose to as long as rotate returns the correct string.
 # Note that n can be positive, negative or zero.
 
-"""
-def shift_n_letters(letter, n):
-    if 97 <= int(ord(letter) + n) < 122:
-        return chr(ord(letter) + n)
-    elif int(ord(letter) + n) <= 97:
-        return chr(122-(96-(int(ord(letter) + n))))
-    else:
-        return chr((int(ord(letter) + n) - 122) + 96)
 
-"""
 def rotate(name , n):
     name2 = list(name)
     name3 = []
