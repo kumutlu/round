@@ -13,7 +13,7 @@ def rotate(name , n):
 
         if 97 <= int(ord(letter) + n) < 122:
             name3.append(chr(ord(letter) + n))
-        elif int(ord(letter) + n) <= 97:
+        elif int(ord(letter) + n) <= 96:
             name3.append (chr(122 - (96 - (int(ord(letter) + n)))))
         else:
             name3.append(chr((int(ord(letter) + n) - 122) + 96))
